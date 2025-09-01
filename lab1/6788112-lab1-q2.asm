@@ -1,13 +1,12 @@
 # Title: Lab Exercise 1, Question 2
 # Author: Waris Sripatoomrak 6788112
-# Date: 28/8/2025
+# Date: 31/8/2025
 # Description: Receive an integer and double it, with an option whether to repeat the calculation.
 # Input: Any integer as n
 # Output: 2n, i.e., n + n
 
 .data
 ################### Data segment #####################
-# `str1` and `str2` are called "labels"
 str1: .asciiz "\nEnter an integer value: "
 str2: .asciiz "The doubled value is: "
 str3: .asciiz "\nRepeat [y/n]? "
