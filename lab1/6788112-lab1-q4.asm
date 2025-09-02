@@ -10,12 +10,13 @@
 # Ans. -56
 
 # 2. Which instruction in your program computed the value of s and which register is used?
-# Ans. add, addi, sub / $t0-t2
+# Ans. add, addi, sub / $t0, $t1, $t2
 
 # 3. What is the address of this instruction in memory?
 # Ans. add = 0x00400054, addi = 0X00400058, sub = 0x0040005c
 
 # 4. Put a breakpoint at this instruction and write the value of the register used for computing s in decimal and hexadecimal.
+# Ans. $t0 = 0x0000000f (15), $t1 = 0x00000047 (71), $t2 = 0xffffffc8 (-56)
 
 .data
 ################### Data segment #####################
